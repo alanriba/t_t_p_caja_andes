@@ -1,0 +1,174 @@
+﻿<html>
+
+<head>
+    <title>Page 1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        .tituloCertificado {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 12pt;
+            text-align: left;
+        }
+
+        .labelFolio {
+            margin-top: 50px;
+            margin-right: 50px;
+            text-align: right;
+        }
+
+        .imagenCaja {
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+
+        .logoCaja {
+            margin-top: 189px;
+            margin-left: 189px;
+            background-image: url('logoccla.png');
+        }
+
+        .text .text2 {
+            font-family: Arial;
+            font-size: 12px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: justify;
+            left: 123px;
+            white-space: nowrap;
+        }
+
+        .timbre {
+            margin-top: 857px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .ft00 {
+            font-size: 13px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft01 {
+            font-size: 13px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft02 {
+            font-size: 22px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft03 {
+            font-size: 16px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft04 {
+            font-size: 19px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft05 {
+            font-size: 14px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft06 {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .tdItem {
+            width: 25%;
+        }
+
+        .tdItemLiquidacion {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="page1-div" style="height:100%;">
+        <table style="width:100%;">
+            <tr style="margin-top:50px; margin-right:50px;">
+                <td style="text-align: center; width:20%;">
+                    $[fechaEmisionDocumento]
+                </td>
+                <td style="text-align: center; width:60%;">
+                    Detalle Licencia N° $[numeroLicencia]
+                </td>
+                <td style="width:20%;">&nbsp;</td>
+            </tr>
+        </table>
+        <div style="height:10px;"></div>
+        <div class="text">`
+            <table style="width: 100%;" border="1">
+                <tr>
+                    <td class="tdItem">Estado Licencia</td>
+                    <td class="tdItem">Tipo de Licencia Medica</td>
+                    <td class="tdItem">Folio Caja Los Andes</td>
+                </tr>
+                <tr>
+                    <td>$[estadoLicencia]</td>
+                    <td>$[tipoLicencia]</td>
+                    <td>$[folioLicencia]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">N° de Licencia</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[numeroLicencia]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">Fecha Emision Licencia</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[fechaEmisionLicencia]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">Tipo de Subsidio</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[tipoSubsidio]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">Dias de Reposo</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[diasReposo]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">Fecha de Inicio Reposo</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[fechaInicioReposo]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">Fecha de Termino Reposo</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[fechaTerminoReposo]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">Fecha Recepcion Caja Los Andes</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[fechaRecepcionCaja]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">Fecha Envio COMPIN</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[fechaEnvioCompin]</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width:50%;">Fecha Probable de Pago</td>
+                    <td style="text-align: left; width:50%;" colspan="2">$[fechaProbablePago]</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

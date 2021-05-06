@@ -1,0 +1,97 @@
+
+12:37:10.848,000,INI:PipeComponent v1.0.0.0
+12:37:10.871,000,IOP:
+
+12:46:54.826,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 12:46:54
+12:46:54.836,000,IOP:
+
+12:47:25.256,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 12:47:24
+12:47:25.269,000,IOP:
+
+12:47:37.165,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 12:47:24
+
+12:47:46.068,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 12:47:24
+12:47:46.078,000,IOP:
+
+12:51:52.457,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 12:51:51
+12:51:52.465,000,IOP:
+
+17:27:56.934,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:27:55
+17:27:56.942,000,IOP:
+
+17:30:42.410,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:27:55
+17:30:42.419,000,IOP:
+17:30:48.800,000,REQ:undefined~undefined
+
+17:32:21.981,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:32:21.991,000,IOP:
+17:32:24.047,000,REQ:undefined~undefined
+17:32:28.031,000,ERR:System.InvalidCastException: El comando no es numérico
+   en PipeComponent.Model.Messages.MessageService.Parse(String s) en E:\Proyectos\PipeComponent\PipeComponent\Model\Messages\MessageService.cs:línea 54
+   en PipeComponent.PipeServer.WaitForConnectionCallBack(IAsyncResult iar) en E:\Proyectos\PipeComponent\PipeComponent\PipeServer.cs:línea 57
+
+17:32:58.653,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:32:58.661,000,IOP:
+17:33:23.180,000,REQ:undefined~undefined
+
+17:33:45.564,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:33:45.574,000,IOP:
+17:33:46.457,000,REQ:undefined~undefined
+
+17:34:56.578,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:34:56.598,000,IOP:
+17:34:57.730,000,REQ:undefined~undefined
+
+17:35:46.231,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:35:46.244,000,IOP:
+17:35:49.655,000,REQ:undefined~undefined
+
+17:37:09.927,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:37:09.938,000,IOP:
+17:37:17.889,000,REQ:undefined~undefined
+
+17:37:58.974,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:37:58.986,000,IOP:
+17:37:59.813,000,REQ:undefined~undefined
+
+17:38:38.161,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:38:38.170,000,IOP:
+17:38:39.039,000,REQ:undefined~undefined
+
+17:39:14.160,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:32:21
+17:39:14.169,000,IOP:
+17:39:16.051,000,REQ:18165526~7
+
+17:41:32.146,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:41:31
+17:41:32.155,000,IOP:
+17:41:34.671,000,REQ:100~18165526~7
+
+17:42:18.239,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:41:31
+17:42:18.251,000,IOP:
+17:42:22.340,000,REQ:100~18165526~7
+
+17:42:59.042,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:41:31
+17:42:59.052,000,IOP:
+17:43:00.462,000,REQ:101~18165526~7
+
+17:49:02.924,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:49:02
+17:49:02.934,000,IOP:
+
+17:49:34.487,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:49:02
+17:49:34.499,000,IOP:
+17:49:35.770,000,REQ:101~Prueba.pdf
+17:49:35.796,000,ERR:System.ComponentModel.Win32Exception (0x80004005): El sistema no puede encontrar el archivo especificado
+   en System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   en System.Diagnostics.Process.Start()
+   en PipeComponent.Peripherals.LaserPrinter.PrintFile(String filename) en E:\Proyectos\PipeComponent\PipeComponent\Peripherals\LaserPrinter.cs:línea 25
+   en PipeComponent.PipeServer.WaitForConnectionCallBack(IAsyncResult iar) en E:\Proyectos\PipeComponent\PipeComponent\PipeServer.cs:línea 93
+
+18:14:21.874,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:49:02
+18:14:21.884,000,IOP:
+
+18:16:09.767,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 17:49:02
+18:16:09.779,000,IOP:
+18:16:11.263,000,REQ:101~E:/Proyectos/Kiosco/Bono/TPBonoDemo/TPBonoDemo/bin/Debug/Bono.pdf
+
+18:30:07.906,000,INI:Servicio PipeComponent v1.0.0.0 Generado el 24-11-2016 18:30:07
+18:30:07.921,000,IOP:

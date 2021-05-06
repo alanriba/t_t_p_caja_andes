@@ -1,0 +1,277 @@
+﻿<html>
+
+<head>
+    <title>Page 1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        .tituloCertificado {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 12pt;
+            text-align: left;
+        }
+
+        .labelFolio {
+            margin-top: 50px;
+            margin-right: 50px;
+            text-align: right;
+        }
+
+        .imagenCaja {
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+
+        .logoCaja {
+            margin-top: 189px;
+            margin-left: 189px;
+            background-image: url('logoccla.png');
+        }
+
+        .text .text2 {
+            font-family: Arial;
+            font-size: 12px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: justify;
+            left: 123px;
+            white-space: nowrap;
+        }
+
+        .timbre {
+            margin-top: 857px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .ft00 {
+            font-size: 13px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft01 {
+            font-size: 13px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft02 {
+            font-size: 22px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft03 {
+            font-size: 16px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft04 {
+            font-size: 19px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft05 {
+            font-size: 14px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft06 {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .tdItem1 {
+            width: 20%;
+        }
+
+        .tdItem2 {
+            width: 40%;
+            text-align: left;
+            font-weight: 800;
+        }
+
+
+        .tdItem3 {
+            width: 25%;
+        }
+
+        .tdItem4 {
+            width: 15%;
+            text-align: right;
+            font-weight: 800;
+        }
+
+
+        .tdItemLiquidacion {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="page1-div" style="height:100%;">
+        <table style="width:100%;">
+            <tr style="margin-top:50px; margin-right:50px;">
+                <td style="text-align: left;">
+                    <img src="htmlTemplates/logoccla.png" width="182" height="80" />
+                </td>
+                <td style="text-align: right;" valign="top">
+                    <p>
+                        <b>Fecha: $[fechaEmision]</b>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <div style="height:45px;"></div>
+        <p class="tituloCertificado" style="border-bottom: 2px solid #019EE1; font-size: 13px;">
+            <b>Liquidación Subsidio</b>
+        </p>
+        <div style="height:10px;"></div>
+        <div class="text">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="tdItem1">Rut:</td>
+                    <td class="tdItem2">$[rutAfiliado]</td>
+                    <td class="tdItem3">Fecha Inicio:</td>
+                    <td class="tdItem4">$[fechaInicio]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1">Nombre:</td>
+                    <td class="tdItem2">$[nombreAfiliado]</td>
+                    <td class="tdItem3">Fecha Término:</td>
+                    <td class="tdItem4">$[fechaTermino]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1">Tipo Licencia:</td>
+                    <td class="tdItem2">$[tipoLicencia]</td>
+                    <td class="tdItem3">Base Cálculo Subsidio:</td>
+                    <td class="tdItem4">$ $[baseCalculoSubsidio]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1">Folio Licencia: </td>
+                    <td class="tdItem2">$[folioLicencia]</td>
+                    <td class="tdItem3">Base Cálculo Cotización:</td>
+                    <td class="tdItem4">$ $[baseCalculoCotizacion]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1">Resolución:</td>
+                    <td class="tdItem2">$[resolucion]</td>
+                    <td class="tdItem3">Monto Subsidio:</td>
+                    <td class="tdItem4">$ $[montoSubsidio]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1">Dias Licencia:</td>
+                    <td class="tdItem2">$[diasLicencia]</td>
+                    <td class="tdItem3">Monto Cotizado</td>
+                    <td class="tdItem4">$ $[montoCotizado]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1">Dias Subsidio:</td>
+                    <td class="tdItem2">$[diasSubsidio]</td>
+                    <td class="tdItem3">Tipo de Pago:</td>
+                    <td class="tdItem4">$[tipoPago]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1">Continuidad:</td>
+                    <td class="tdItem2">$[continuidad]</td>
+                    <td class="tdItem3">Forma de Pago:</td>
+                    <td class="tdItem4">$[formaPago]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1">Cuota Licencia:</td>
+                    <td class="tdItem2">$[cuotaLicencia]</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <p>&nbsp;</p>
+        <div class="tituloCertificado" style="border-bottom: 2px solid #019EE1; font-size:13px;">
+            <b>Rentas para el calculo</b>
+        </div>
+        <p>&nbsp;</p>
+        <div class="text">
+            <table style="width: 100%;">
+                <tr style="background-color: #019EE1; color: white; font-weight: 800;">
+                    <td class="tdItemLiquidacion">Periodo<p>&nbsp;</p>Renta</td>
+                    <td class="tdItemLiquidacion">D&iacute;as<p>&nbsp;</p>Trabajados</td>
+                    <td class="tdItemLiquidacion">Renta<p>&nbsp;</p>(+)</td>
+                    <td class="tdItemLiquidacion">Impuesto<p>&nbsp;</p>(-)</td>
+                    <td class="tdItemLiquidacion">Subsidios<p>&nbsp;</p>Anteriones (+)</td>
+                    <td class="tdItemLiquidacion">Otros<p>&nbsp;</p>Subsidios (+)</td>
+                    <td class="tdItemLiquidacion">Neto</td>
+                </tr>
+                $[detallePago]
+            </table>
+        </div>
+        <div style="height:45px;"></div>
+        <p class="tituloCertificado" style="border-bottom: 1px solid #019EE1;">
+            <b>Detalle de Cotizaciones</b>
+        </p>
+        <div style="height:10px;"></div>
+        <div class="text">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="tdItem1" style="width: 25%;">Entidad Previsional:</td>
+                    <td class="tdItem2" style="width: 25%;">$[entidadPrevisional]</td>
+                    <td class="tdItem3" style="width: 25%;">Seguro Cesantia:</td>
+                    <td class="tdItem4" style="width: 25%;">$ $[seguroCesantia]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1" style="width: 25%;">Cotizacion de Pension:</td>
+                    <td class="tdItem2" style="width: 25%;">$ $[cotizacionPension]</td>
+                    <td class="tdItem3" style="width: 25%;">Monto Cotizado:</td>
+                    <td class="tdItem4" style="width: 25%;">$ $[montoCotizado]</td>
+                </tr>
+                <tr>
+                    <td class="tdItem1" style="width: 25%;">Cotizacion de Salud:</td>
+                    <td class="tdItem2" style="width: 25%;">$ $[cotizacionSalud]</td>
+                    <td class="tdItem3"></td>
+                    <td class="tdItem4"></td>
+                </tr>
+            </table>
+        </div>
+        <div style="height:10px;"></div>
+        <div class="text">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 30%;">&nbsp;</td>
+                    <td style="width: 70%;">
+                        <table style="width: 100%; background-color: #019EE1; color: white; font-size: 20px; text-align: left;">
+                            <tr>
+                                <td style="width: 50%;">Valor subsidio diario:</td>
+                                <td style="width: 50%;">$ $[subsidioDiario]</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50%;">*Monto a recibir: </td>
+                                <td style="width: 50%;">$ $[montoRecibir]</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;">
+                        *Este valor corresponde al Monto Subsidio, descontando el aporte del trabajador a su Fondo de Seguro de Cesantía
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

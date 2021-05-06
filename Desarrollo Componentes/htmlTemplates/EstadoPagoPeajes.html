@@ -1,0 +1,126 @@
+<html>
+<head>
+    <style>
+        .document-title {
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .document-body {
+            text-align: justify;
+            text-justify: inter-word;
+            width: 100%;
+        }
+
+        .text-bold {
+            font-weight: bold;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        .table-header {
+            background-color: #031372;
+            color: #FFFFFF;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #table-patentes {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        #table-patentes td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td width="80%">
+                <table>
+                    <tr>
+                        <td style="text-align: right;">
+                            <img src="htmlTemplates/logo.png" width="300" height="120" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="10%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="15%">&nbsp;</td>
+            <td>
+                <p class="document-title">ESTADO DE PAGO DE PEAJES</p>
+                <p class="document-title">PATENTES SIN MEDIO DE COBRO HABILITADO</p>
+                <br/><br/><br/>
+            </td>
+            <td width="15%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td width="80%" class="text-justify">
+                En Santiago, $[FECHA] <span class="text-bold">Sociedad Concesionaria
+                    Vespucio Norte Express</span> informa que las patentes detalladas a
+                    continuación, tienen los siguientes estados de pago para tránsito sin
+                    medio de cobro habilitado.<br/>
+                    El pago de estos tránsitos, <span class="text-bold">no lo liberan de las sanciones</span> que
+                    pudiera cursar el juzgado de Policía Local, de acuerdo a la ley de
+                    tránsito 18.290, en su Art. 114.-
+			</td>
+			<td width="10%">&nbsp;</td>
+        </tr>
+    </table>
+    <br/>
+    <table>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td width="80%" class="text-justify">
+				<br/>
+                Este certificado solo considera aquellos cargos facturados con fecha
+                de vencimiento de pago ya cumplida, por lo que no incluye aquellos
+                documentos que están próximos a vencer.
+                
+				<br/><br/><br/><br/>
+
+            </td>
+            <td width="10%">&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="10%">&nbsp;</td>
+            <td  width="80%">
+                <table id="table-patentes">
+                    <tr class="table-header">
+                        <td class="text-bold">Patente</td>
+                        <td class="text-bold">Folio Factura</td>
+                        <td class="text-bold">Fecha tránsito</td>
+                        <td class="text-bold">Fecha Pago Peaje</td>
+                    </tr>
+                    $[PATENTES]
+                </table>
+            </td>
+            <td width="10%">&nbsp;</td>
+        </tr>
+    </table>
+    <p class="text-bold text-center">
+        <img src="htmlTemplates/timbre.png" width="150" height="150" />
+		<br/> 
+		Área Servicio al Cliente<br/>
+		Autopista Vespucio Norte
+    </p>
+</body>
+
+</html>

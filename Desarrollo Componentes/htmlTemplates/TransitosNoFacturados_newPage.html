@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <style>
+            .document-title {
+                text-align: center;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+            .document-body {
+                text-align: justify;
+                text-justify: inter-word;
+                width: 100%;
+            }
+            .text-bold {
+                font-weight: bold;
+            }
+            .text-center {
+                text-align: center;
+            }
+            .text-justify {
+                text-align: justify;
+            }
+            .table-header {
+                background-color: #031372;
+                color: #FFFFFF;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            #table-facturas {
+                border: 1px solid black;
+                text-align: center;
+            }
+            #table-facturas td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td width="5%">&nbsp;</td>
+                <td width="90%">
+                    <p class="document-title">DETALLES DE TRÁNSITOS SIN TAG - NO FACTURADOS</p>
+                    <br/>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td width="5%">&nbsp;</td>
+                <td width="90%">
+                    <table id="table-facturas">
+                        <tr class="table-header">
+                            <td class="text-bold">Patente</td>
+                            <td class="text-bold">Fecha tránsito</td>
+							<td class="text-bold">Fecha compra pase diario</td>
+							<td class="text-bold">Plazo compra</td>
+                            <td class="text-bold">Concesionaria</td>
+                        </tr>
+                        $[FACTURAS]
+                    </table>
+                </td>
+                <td width="5%">&nbsp;</td>
+            </tr>
+        </table>
+    </body>
+</html>

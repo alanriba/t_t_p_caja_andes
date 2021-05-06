@@ -1,0 +1,418 @@
+<html>
+
+<head>
+    <title>Page 1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+        .tituloCertificado {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 15pt;
+            text-align: center;
+        }
+
+        .labelFolio {
+            margin-top: 50px;
+            margin-right: 50px;
+            text-align: right;
+        }
+
+        .imagenCaja {
+            margin-top: 50px;
+            margin-left: 150px;
+        }
+
+        .logoCaja {
+            margin-top: 189px;
+            margin-left: 189px;
+            background-image: url('logoccla.png');
+        }
+
+        .text .text2 {
+            font-family: Arial;
+            font-size: 12px;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: justify;
+            left: 123px;
+            white-space: nowrap;
+        }
+
+        .textTd {
+            font-size: 10pt;
+            font-family: Arial;
+            font-weight: 600;
+        }
+
+        .textResult {
+            font-size: 9pt;
+            font-family: Arial;
+            font-weight: 600;
+        }
+
+        .timbre {
+            margin-top: 857px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .ft00 {
+            font-size: 13px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft01 {
+            font-size: 13px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft02 {
+            font-size: 22px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft03 {
+            font-size: 16px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft04 {
+            font-size: 19px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft05 {
+            font-size: 14px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .ft06 {
+            font-size: 16px;
+            line-height: 20px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        .body {
+            font-family: Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        .tableForm {
+            width: 100%;
+            border-width: solid;
+            border-style: none;
+            border-collapse: collapse;
+            border-color: black;
+        }
+
+        .textHeadTd {
+            width: 100%;
+            text-align: center;
+            background-color: gainsboro;
+        }
+
+        .textTdResult {
+            width: 100%;
+            text-align: left;
+            height: 60px;
+        }
+    </style>
+
+</head>
+
+<body class="body">
+    <div id="page1-div" style="height:100%;">
+        <table style="width:100%;">
+            <tr style="margin-top:50px; margin-right:50px; margin-left: 50px;">
+                <td style="text-align: left;">
+                    <img src="C:/TotalPack/htmlTemplates/logoccla.png" width="182" height="80" />
+                </td>
+                <td>
+                    <p class="tituloCertificado" style="text-align: left; font-size: 20pt;">
+                        <b>AUTORIZACION DE CARGAS FAMILIARES</b>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <div style="height:20px;"></div>
+
+        <table style="width:100%;">
+            <tr style="margin-right:50px; margin-left: 50px;">
+                <td style="text-align: left; width: 70%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                APELLIDO PATERNO APELLIDO MATERNO NOMBRES
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult">
+                                $[nombreAfiliado]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 1%;"></td>
+                <td style="text-align: left; width: 14%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                R.U.T
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult" style="text-align: center;">
+                                $[rutAfiliado]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 1%;"></td>
+                <td style="text-align: left; width: 14%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                SUCURSAL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult" style="text-align: center;">
+                                $[sucursal]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="height:5px;"></div>
+
+        <table style="width:100%;">
+            <tr style="margin-right:50px; margin-left: 50px;">
+                <td style="text-align: left; width: 70%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                RAZON SOCIAL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult">
+                                $[razonSocial]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 1%;"></td>
+                <td style="text-align: left; width: 14%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                R.U.T EMPRESA
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult" style="text-align: center;">
+                                $[rutRazonSocial]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 1%;"></td>
+                <td style="text-align: left; width: 14%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                CODIGO INTERNO
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult">
+                                &nbsp;
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <div style="height:5px;"></div>
+
+        <table style="width:100%;">
+            <tr style="text-align: center;">
+                <td>
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="text-align: center; background-color: #DCDCDC">
+                                R.U.T CARGA
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                            </td>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                PARENTESCO
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p style="font-size: 9px;">Código &nbsp;&nbsp;&nbsp;Decripción</p>
+                            </td>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC; width: 1500px;">
+                                NOMBRE CARGA
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p style="font-size: 9px;">Apellido Paterno &nbsp;&nbsp;&nbsp;Apellido Materno&nbsp;&nbsp;&nbsp;Nombres</p>
+                            </td>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC; width: 200px;">
+                                S
+                                <br/>E
+                                <br/>X
+                                <br/>O
+                                <br/>
+                            </td>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                FECHA DE INICIO
+                                <br/>DEL BENEFICIO
+                                <br/>EN LA EMPRESA
+                                <p>&nbsp;</p>
+                                <p style="font-size: 9px;">Día &nbsp;&nbsp;&nbsp;Mes&nbsp;&nbsp;&nbsp;Año</p>
+                            </td>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                FECHA DE NACIMIENTO
+                                <br/>O MATRIMONIO
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p style="font-size: 9px;">Día &nbsp;&nbsp;&nbsp;Mes&nbsp;&nbsp;&nbsp;Año</p>
+                            </td>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                FECHA DE VENCIMIENTO
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p style="font-size: 9px;">Día &nbsp;&nbsp;&nbsp;Mes&nbsp;&nbsp;&nbsp;Año</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult" style="text-align: center; width: 150px;">
+                                $[rutCarga]
+                            </td>
+                            <td class="textResult textTdResult" style="text-align: center; width: 350px;">
+                                $[parentescoCarga]
+                            </td>
+                            <td class="textResult textTdResult" style="text-align: center; width: auto;">
+                                $[nombreCarga]
+                            </td>
+                            <td class="textResult textTdResult" style="text-align: center; width: auto;">
+                                $[sexoCarga]
+                            </td>
+                            <td class="textResult textTdResult" style="text-align: center; width: auto;">
+                                $[fechaInicio]
+                            </td>
+                            <td class="textResult textTdResult" style="text-align: center; width: auto;">
+                                $[fechaNacimiento]
+                            </td>
+                            <td class="textResult textTdResult" style="text-align: center; width: auto;">
+                                $[fechaVencimiento]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="height:5px;"></div>
+
+        <table class="tableForm">
+            <tr style="margin-right: 50px; margin-left: 50px; ">
+                <td valign="top" style="text-align: left; width: 70%; text-align: left; border-bottom: 1px solid; border-top: 1px solid; border-left: 1px solid; ">
+                    Observacion
+                </td>
+                <td style="width: 30%;vertical-align:middle; text-align: right; border-bottom: 1px solid; border-top: 1px solid; border-right: 1px solid;">
+                    <img class="imagenCaja" src="C:/TotalPack/htmlTemplates/timbre.png" width="100" style="margin-top:0px;" />
+                </td>
+            </tr>
+        </table>
+        <div style="height:20px;"></div>
+        <div style="height:70px; text-align: justify;">
+            EL EMPLEADOR PAGARA AL BENEFICIARIO LAS ASIGNACIONES FAMILIARES AUTORIZADAS POR ESTA CAJA, SOLO CUANDO LA RESOLUCION DE CARGAS
+            FAMILIARES ESTE EXTENDIDA A NOMBRE DE SU EMPRESA Y DE ACUERDO AL PERIODO TRABAJADO EN ELLA.
+        </div>
+        <div style="height:20px;"></div>
+        <table style="width: 100%;">
+            <tr style="margin-right:50px; margin-left: 50px;">
+                <td style="text-align: center; width: 24%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                CARGAS FAMILIARES AUTORIZADAS
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult" style="text-align: center">
+                                $[cargasAutorizadas]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 1%;"></td>
+                <td style="text-align: left; width: 24%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                FECHA DE VIGENCIA
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult" style="text-align: center">
+                                $[fechaVigencia]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 2%;"></td>
+                <td style="text-align: left; width: 14%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                FECHA DE EMISION
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult" style="text-align: center">
+                                $[fechaEmision]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width: 1%;"></td>
+                <td style="text-align: left; width: 14%;">
+                    <table border="1 solid black" class="tableForm">
+                        <tr>
+                            <td class="textTd textHeadTd" style="background-color: #DCDCDC">
+                                TIMBRE C.C.A.F.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="textResult textTdResult" style="text-align: center">
+                                $[timbreCaja]
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

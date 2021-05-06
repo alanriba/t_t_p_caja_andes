@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PipeComponent.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RutaLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">./Log</Value>
+    </Setting>
+    <Setting Name="NombrePipe" Type="System.String" Scope="User">
+      <Value Profile="(Default)">componentPipe</Value>
+    </Setting>
+    <Setting Name="validation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SHA1</Value>
+    </Setting>
+    <Setting Name="decryption" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AES</Value>
+    </Setting>
+    <Setting Name="validationKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C21F090935F6E49C2C797F69DDEED8402ABD2EE0B667A8B44EA7DD4374267A75D7AD972A119482D15A4127461DB1DC347C1A63AE5F1CCFAACFF1B72A7F0A281B</Value>
+    </Setting>
+    <Setting Name="decryptionKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ABAA84D7EC4BB56D75D217CECFFB9628809BDB8BF91CFCD64568A145BE59719F</Value>
+    </Setting>
+    <Setting Name="Impresora" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NII ExD NP-K305</Value>
+    </Setting>
+    <Setting Name="PuertoComLectorBarra" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="NombreLectorHid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OMNIKEY CardMan 5x21-CL 0</Value>
+    </Setting>
+    <Setting Name="ImpresoraLaser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HP LaserJet</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
